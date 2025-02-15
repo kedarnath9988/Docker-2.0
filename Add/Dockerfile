@@ -1,3 +1,3 @@
 FROM almalinu:9
-ADD  https://raw.githubusercontent.com/kedarnath9988/Docker-2.0/refs/heads/main/Copy/hello.html /tmp/hello.html
+ADD  https://raw.githubusercontent.com/daws-78s/notes/refs/heads/main/session-01.txt /tmp/session-01.txt
 CMD [ "sleep","1000" ]

@@ -1,4 +1,7 @@
 FROM almalinux:9
-LABEL auther="kedarnath" \
+LABEL author="kedarnath" \
       course="devops" \
       project="Expense"
+
+
+      #  docker images -f label=project=Expense

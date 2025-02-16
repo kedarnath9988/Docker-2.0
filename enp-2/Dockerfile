@@ -1,2 +1,3 @@
 FROM almalinux:9
-ENTRYPOINT [ "ping","-c8","google.com" ]
+CMD ["google.com"]
+ENTRYPOINT [ "ping","-c8" ]

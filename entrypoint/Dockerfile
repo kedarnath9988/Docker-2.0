@@ -1,4 +1,2 @@
 FROM almalinux:9 
-RUN  dnf install nginx -y 
-CMD ["daemon off;"]
-ENTRYPOINT [ "nginx", "-g" ]
+CMD ["ping","-c5" "google.com"]

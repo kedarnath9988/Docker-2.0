@@ -1,8 +1,8 @@
 ARG version
 FROM almalinux:${version:-9}
-ARG Trainer 
-ARG duration 
-ARG Course 
+ARG Trainer=kedarnath
+ARG duration=120hrs
+ARG Course=DevaOps
 RUN echo "Trainer is ${Trainer}, duration is ${duration}, and Course is ${Course}"
 ENV DURATION=${duration}
 CMD [ "sleep","1000" ]

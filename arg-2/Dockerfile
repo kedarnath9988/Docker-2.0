@@ -1,5 +1,4 @@
-ARG version=9
-FROM almalinux:${version}
+FROM almalinux:9
 ARG Trainer 
 ARG duration 
 ARG Course 
